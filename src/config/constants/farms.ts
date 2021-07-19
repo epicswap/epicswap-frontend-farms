@@ -22,7 +22,7 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'EBC-BNB LP',
+    lpSymbol: 'EPIC-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xe87803ef3e2850427e00ecd4fd932e10b861311b',
