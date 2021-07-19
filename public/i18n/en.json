@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total TOBA burned since launch"
+        "text": "Total EPIC burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn TOBA"
+        "text": "Stake LP tokens to earn EPIC"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake TOBA, get SYRUP."
+        "text": "Stake EPIC, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake TOBA tokens, the contract will automatically harvest TOBA rewards for you!"
+        "text": "Every time you stake and unstake EPIC tokens, the contract will automatically harvest EPIC rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "TOBA price"
+        "text": "EPIC price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 TOBA = 1 SYRUP"
+        "text": "1 EPIC = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of TOBA block emissions each day (10 TOBA per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of EPIC block emissions each day (10 EPIC per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% TOBA"
+        "text": "%num% EPIC"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend TOBA to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend EPIC to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% TOBA Available"
+        "text": "%num% EPIC Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 TOBA"
+        "text": "Your amount must be a multiple of 10 EPIC"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 TOBA"
+        "text": "1 Ticket = 10 EPIC"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your TOBA cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your EPIC cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "TOBA prizes to be claimed"
+        "text": "EPIC prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve TOBA"
+        "text": "Approve EPIC"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of TOBA block emissions each day (10 TOBA per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of EPIC block emissions each day (10 EPIC per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using TOBA-BNB LP tokens, which means you need to stake equal amounts of TOBA and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using EPIC-BNB LP tokens, which means you need to stake equal amounts of EPIC and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get TOBA-BNB LP >"
+        "text": "Get EPIC-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, EpicSwap burns the TOBA."
+        "text": "The project gets the BNB, EpicSwap burns the EPIC."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "TOBA Stats"
+        "text": "EPIC Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New TOBA\/block"
+        "text": "New EPIC\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "TOBA to Harvest"
+        "text": "EPIC to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "TOBA in Wallet"
+        "text": "EPIC in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting TOBA"
+        "text": "Collecting EPIC"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "TOBA to Collect"
+        "text": "EPIC to Collect"
       }
     },
     {
@@ -765,7 +765,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake TOBA to earn new tokens."
+        "text": "Stake EPIC to earn new tokens."
       }
     },
     {
@@ -783,7 +783,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "TOBA to burn (USD)"
+        "text": "EPIC to burn (USD)"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest TOBA rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest EPIC rewards for you!"
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy TOBA and BNB tokens"
+        "text": "Buy EPIC and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get TOBA-BNB LP tokens by adding TOBA and BNB liquidity"
+        "text": "Get EPIC-BNB LP tokens by adding EPIC and BNB liquidity"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your TOBA-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your EPIC-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -867,7 +867,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for TOBA, or keep for your collection!"
+        "text": "Trade in for EPIC, or keep for your collection!"
       }
     },
     {
@@ -909,7 +909,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive TOBA, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive EPIC, you will lose access to it forever!"
       }
     },
     {
@@ -939,7 +939,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a TOBA value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a EPIC value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -981,7 +981,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for TOBA"
+        "text": "Trade in for EPIC"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn TOBA"
+        "text": "Stake LP tokens to earn EPIC"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The TOBA Lottery"
+        "text": "The EPIC Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with TOBA"
+        "text": "Buy tickets with EPIC"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback TOBA"
+        "text": "Deposit Fee will be used to buyback EPIC"
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn TOBA"
+        "text": "Stake tokens to earn EPIC"
       }
     },
     {

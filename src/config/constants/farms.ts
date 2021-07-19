@@ -27,7 +27,7 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0xe87803ef3e2850427e00ecd4fd932e10b861311b',
     },
-    tokenSymbol: 'toba',
+    tokenSymbol: 'EPIC',
     tokenAddresses: {
       97: '',
       56: '0x167affEF52469f80970cCf2bA6616F8f9dc239a7',
@@ -202,12 +202,12 @@ const farms: FarmConfig[] = [
   //   pid: 12,
   //   risk: 5,
   //   isTokenOnly: true,
-  //   lpSymbol: 'TOBA',
+  //   lpSymbol: 'EPIC',
   //   lpAddresses: {
   //     97: '',
-  //     56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // TOBA-BUSD LP
+  //     56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // EPIC-BUSD LP
   //   },
-  //   tokenSymbol: 'TOBA',
+  //   tokenSymbol: 'EPIC',
   //   tokenAddresses: {
   //     97: '',
   //     56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
@@ -222,7 +222,7 @@ const farms: FarmConfig[] = [
   //   lpSymbol: 'BUSD',
   //   lpAddresses: {
   //     97: '',
-  //     56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // TOBA-BUSD LP (BUSD-BUSD will ignore)
+  //     56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // EPIC-BUSD LP (BUSD-BUSD will ignore)
   //   },
   //   tokenSymbol: 'BUSD',
   //   tokenAddresses: {

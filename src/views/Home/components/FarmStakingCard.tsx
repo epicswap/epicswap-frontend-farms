@@ -71,9 +71,9 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/epic/2.png" alt="toba logo" width={64} height={64} />
+        <CardImage src="/images/epic/2.png" alt="EPIC logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'TOBA to Harvest')}</Label>
+          <Label>{TranslateString(544, 'EPIC to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum} />
           <Label>
             ~$
@@ -86,7 +86,7 @@ const FarmedStakingCard = () => {
           </Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'TOBA in Wallet')}</Label>
+          <Label>{TranslateString(546, 'EPIC in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
           <Label>
             ~$
@@ -107,7 +107,7 @@ const FarmedStakingCard = () => {
               fullWidth
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting TOBA')
+                ? TranslateString(548, 'Collecting EPIC')
                 : TranslateString(999, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (

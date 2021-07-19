@@ -69,7 +69,7 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(550, 'Your Lottery Winnings')}
         </Heading>
-        <CardImage src="/images/ticket.svg" alt="toba logo" width={64} height={64} />
+        <CardImage src="/images/ticket.svg" alt="EPIC logo" width={64} height={64} />
         <Block>
           <CakeWinnings />
           <Label>{TranslateString(552, 'CAKE to Collect')}</Label>
