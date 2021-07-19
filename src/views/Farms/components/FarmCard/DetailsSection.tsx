@@ -55,8 +55,8 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         <StyledLinkExternal
           href={
             isTokenOnly
-              ? `https://exchange.tobaccoswap.finance/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
-              : `https://exchange.tobaccoswap.finance/#/add/${liquidityUrlPathParts}`
+              ? `https://exchange.epicswap.finance/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+              : `https://exchange.epicswap.finance/#/add/${liquidityUrlPathParts}`
           }
         >
           {lpLabel}

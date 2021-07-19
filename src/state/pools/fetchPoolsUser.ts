@@ -93,7 +93,7 @@ export const fetchUserPendingRewards = async (account) => {
   )
 
   // Cake / Cake pool
-  const pendingReward = await masterChefContract.methods.pendingTBC('0', account).call()
+  const pendingReward = await masterChefContract.methods.pendingEpic('0', account).call()
 
   return { ...pendingRewards, 0: new BigNumber(pendingReward).toJSON() }
 }

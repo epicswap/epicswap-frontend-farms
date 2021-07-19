@@ -89,7 +89,7 @@ const fetchFarms = async () => {
       }
 
       // Only make masterchef calls if farm has pid
-      const [info, totalAllocPoint, tbcPerBlock] =
+      const [info, totalAllocPoint, epicPerBlock] =
         pid || pid === 0
           ? 
           await multicall(masterchefABI, [
@@ -104,7 +104,7 @@ const fetchFarms = async () => {
               },
               {
                 address: getMasterChefAddress(),
-                name: 'tbcPerBlock',
+                name: 'epicPerBlock',
               },
             ])
           : [null, null]
@@ -112,7 +112,7 @@ const fetchFarms = async () => {
       const allocPoint = info ? new BigNumber(info.allocPoint?._hex) : ZERO
       const poolWeight = totalAllocPoint ? allocPoint.div(new BigNumber(totalAllocPoint)) : ZERO
 
-      // console.log('결과 tbcPerBlock', tbcPerBlock)
+      // console.log('결과 epicPerBlock', epicPerBlock)
       // console.log('결과 allocPoint', allocPoint)
       // console.log('결과 tokenAmount', tokenAmount.toJSON())
       // console.log('결과 lpTotalInQuoteToken', lpTotalInQuoteToken.toJSON())
@@ -130,7 +130,7 @@ const fetchFarms = async () => {
         poolWeight: poolWeight.toNumber(),
         multiplier: `${allocPoint.div(100).toString()}X`,
         depositFeeBP: info ? info.depositFeeBP : 0,
-        tbcPerBlock: new BigNumber(tbcPerBlock).toNumber(),
+        epicPerBlock: new BigNumber(epicPerBlock).toNumber(),
       }
     }),
   )

@@ -2,8 +2,8 @@
   {
       "inputs": [
           {
-              "internalType": "contract TBCToken",
-              "name": "_tbc",
+              "internalType": "contract EpicSwapToken",
+              "name": "_epic",
               "type": "address"
           },
           {
@@ -18,7 +18,7 @@
           },
           {
               "internalType": "uint256",
-              "name": "_tbcPerBlock",
+              "name": "_epicPerBlock",
               "type": "uint256"
           },
           {
@@ -224,10 +224,10 @@
   },
   {
       "inputs": [],
-      "name": "tbc",
+      "name": "epic",
       "outputs": [
           {
-              "internalType": "contract TBCToken",
+              "internalType": "contract EpicSwapToken",
               "name": "",
               "type": "address"
           }
@@ -237,7 +237,7 @@
   },
   {
       "inputs": [],
-      "name": "tbcPerBlock",
+      "name": "epicPerBlock",
       "outputs": [
           {
               "internalType": "uint256",
@@ -318,7 +318,7 @@
               "type": "address"
           }
       ],
-      "name": "pendingTBC",
+      "name": "pendingEpic",
       "outputs": [
           {
               "internalType": "uint256",
@@ -356,7 +356,7 @@
           },
           {
               "internalType": "uint256",
-              "name": "accTBCPerShare",
+              "name": "accEPICPerShare",
               "type": "uint256"
           },
           {
@@ -472,7 +472,7 @@
       "inputs": [
           {
               "internalType": "uint256",
-              "name": "_tbcPerBlock",
+              "name": "_epicPerBlock",
               "type": "uint256"
           }
       ],
