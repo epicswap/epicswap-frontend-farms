@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.epicswap.finance/',
+        href: 'https://exchange.epicswap.io/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.epicswap.finance/#/pool',
+        href: 'https://exchange.epicswap.io/#/pool',
       },
     ],
   },
