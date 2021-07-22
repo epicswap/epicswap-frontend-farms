@@ -21,9 +21,9 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms',
+    label: 'Code',
     icon: 'FarmIcon',
-    href: '/farms',
+    href: '/code',
   },
   {
     label: 'Developing',
