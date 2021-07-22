@@ -1104,9 +1104,9 @@
     regenerator-runtime "^0.13.4"
 
 "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.7":
-  version "7.14.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
-  integrity sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==
+  version "7.14.8"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.8.tgz#7119a56f421018852694290b9f9148097391b446"
+  integrity sha512-twj3L8Og5SaCRCErB4x4ajbvBIVV77CGeFglHpeg5WC5FF8TZzBWXtTJ4MqaD9QszLYTtr+IsaAL2rEUevb+eg==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1365,9 +1365,9 @@
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
 "@epicswap/uikit@^0.10.10":
-  version "0.10.12"
-  resolved "https://registry.yarnpkg.com/@epicswap/uikit/-/uikit-0.10.12.tgz#01788e735f26607a9699380d35a1cb0531e71ece"
-  integrity sha512-kWxydHtGeSZNUF7V9TsGtDK6wEPclOf0CreQODdkhzn7vmFx2P98nLZ4OGtUvmI5CrhEAxpUGCamuGECBTutkQ==
+  version "0.10.13"
+  resolved "https://registry.yarnpkg.com/@epicswap/uikit/-/uikit-0.10.13.tgz#b1dc05aff2a5476d0f8fbdd54faf017b70a55f15"
+  integrity sha512-BkcHgMWLEreZcldautNZ05Jlr0vGjR1M7eUkPQkA8GjEAbipl8ysnblSqykbGTtQWTsylpjbzegkQKyGw/GrUA==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
