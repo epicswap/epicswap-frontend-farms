@@ -35,11 +35,18 @@ const config: MenuEntry[] = [
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
+  {
+    label: 'Lottery (Coming Soon)',
+    icon: 'TicketIcon',
+    href: '',
+    // href: '',
+  },
+  {
+    label: 'IFO (Coming Soon)',
+    icon: 'IfoIcon',
+    href: '/ifo',
+    // href: '',
+  },
   // {
   //   label: 'NFT',
   //   icon: 'NftIcon',
