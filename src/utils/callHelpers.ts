@@ -1,5 +1,6 @@
 import BigNumber from 'bignumber.js'
 import { ethers } from 'ethers'
+import { getReferralCode } from 'utils/referrals'
 
 export const approve = async (lpContract, masterChefContract, account) => {
   return lpContract.methods
@@ -9,7 +10,7 @@ export const approve = async (lpContract, masterChefContract, account) => {
 
 export const stake = async (masterChefContract, pid, amount, account) => {
   return masterChefContract.methods
-    .deposit(pid, new BigNumber(amount).times(new BigNumber(10).pow(18)).toString())
+    .deposit(pid, new BigNumber(amount).times(new BigNumber(10).pow(18)).toString(), getReferralCode())
     .send({ from: account })
     .on('transactionHash', (tx) => {
       return tx.transactionHash
@@ -80,7 +81,7 @@ export const sousEmegencyUnstake = async (sousChefContract, amount, account) => 
 
 export const harvest = async (masterChefContract, pid, account) => {
   return masterChefContract.methods
-    .deposit(pid, '0')
+    .deposit(pid, '0', getReferralCode())
     .send({ from: account })
     .on('transactionHash', (tx) => {
       return tx.transactionHash

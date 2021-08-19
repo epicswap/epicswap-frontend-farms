@@ -18,6 +18,7 @@ const Lottery = lazy(() => import('./views/Lottery'))
 const Ifos = lazy(() => import('./views/Ifos'))
 const NotFound = lazy(() => import('./views/NotFound'))
 // const Nft = lazy(() => import('./views/Nft'))
+const Referrals = lazy(() => import('./views/Referrals')) // add
 
 // This config is required for number formating
 BigNumber.config({
@@ -55,10 +56,13 @@ const App: React.FC = () => {
             {/*  <Pools /> */}
             {/* </Route> */}
             <Route path="/lottery">
-             <Lottery />
+              <Lottery />
             </Route>
             <Route path="/ifo">
-             <Ifos />
+              <Ifos />
+            </Route>
+            <Route path="/referrals">
+              <Referrals />
             </Route>
             {/* <Route path="/nft"> */}
             {/*  <Nft /> */}

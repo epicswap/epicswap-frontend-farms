@@ -86,3 +86,8 @@ export type Nft = {
   sortOrder: number
   bunnyId: number
 }
+
+export interface ReferralConfig {
+  totalReferrals: number
+  totalReferralCommissions: number
+}

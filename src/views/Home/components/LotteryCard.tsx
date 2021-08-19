@@ -61,7 +61,7 @@ const FarmedStakingCard = () => {
     }
   }, [onMultiClaim, setRequestedClaim])
 
-  const [onPresentBuy] = useModal(<BuyModal max={cakeBalance} tokenName="CAKE" />)
+  const [onPresentBuy] = useModal(<BuyModal max={cakeBalance} tokenName="EPIC" />)
 
   return (
     <StyledLotteryCard>
@@ -69,7 +69,7 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(550, 'Your Lottery Winnings')}
         </Heading>
-        <CardImage src="/images/ticket.svg" alt="EPIC logo" width={64} height={64} />
+        <CardImage src="/images/epic/1.png" alt="EPIC logo" width={64} height={64} />
         <Block>
           <CakeWinnings />
           <Label>{TranslateString(552, 'CAKE to Collect')}</Label>

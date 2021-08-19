@@ -61,7 +61,7 @@ const NftGlobalNotification = () => {
           { address: RABBIT_MINTING_FARM_ADDRESS, name: 'hasClaimed', params: [account] },
         ],
       )
-
+      console.log(totalSupplyDistributedArr)
       // TODO: Figure out why these values are coming back as an array
       const [totalSupplyDistributed]: [BigNumber] = totalSupplyDistributedArr
       const [currentDistributedSupply]: [BigNumber] = currentDistributedSupplyArr

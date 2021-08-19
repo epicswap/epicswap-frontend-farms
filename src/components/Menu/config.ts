@@ -38,7 +38,7 @@ const config: MenuEntry[] = [
   {
     label: 'Lottery (Coming Soon)',
     icon: 'TicketIcon',
-    href: '',
+    href: '/lottery',
     // href: '',
   },
   {
@@ -46,6 +46,12 @@ const config: MenuEntry[] = [
     icon: 'IfoIcon',
     href: '/ifo',
     // href: '',
+  },
+  {
+    label: 'Referrals (Coming Soon)',
+    // icon: 'ReferralsIcon',
+    icon: 'HandshakeIcon',
+    href: '',
   },
   // {
   //   label: 'NFT',
@@ -88,7 +94,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
+        href: 'https://epicswap.medium.com/',
       },
     ],
   },

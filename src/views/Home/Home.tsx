@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { Heading, Text, BaseLayout } from '@epicswap/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
+import { setReferralCode } from 'utils/referrals'
+import { useWallet } from '@binance-chain/bsc-use-wallet'
 import FarmStakingCard from './components/FarmStakingCard'
 import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
@@ -55,6 +57,11 @@ const Cards = styled(BaseLayout)`
 
 const Home: React.FC = () => {
   const TranslateString = useI18n()
+  const { account } = useWallet()
+
+  useEffect(() => {
+    setReferralCode(window.location.search, account)
+  }, [account])
 
   return (
     <Page>
@@ -62,7 +69,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'EpicSwap')}
         </Heading>
-        <Text>{TranslateString(578, 'Top 3 best DEFI app on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, 'best DEFI app on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
         <Cards>

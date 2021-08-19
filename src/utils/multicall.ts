@@ -20,11 +20,9 @@ const multicall = async (abi: any[], calls: Call[]) => {
     const res = returnData.map((call, i) => itf.decodeFunctionResult(calls[i].name, call))
     return res
   } catch (error) {
-    console.log("콜 에러", error)
+    console.log('콜 에러', error)
     return [null]
   }
- 
-
 }
 
 export default multicall
