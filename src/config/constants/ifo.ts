@@ -98,7 +98,7 @@ const ifos: Ifo[] = [
   },
   {
     id: 'epic',
-    address: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
+    address: '0x7A080109C23EC9dd0239628e7e897bb9dc9E5869',
     isActive: true,
     name: 'Demo epic',
     subTitle: 'A blockchain based mutual to share the risk of DeFi on Binance Smart Chain',
@@ -110,11 +110,12 @@ const ifos: Ifo[] = [
     raiseAmount: '$200,000',
     cakeToBurn: '$262,500',
     projectSiteUrl: 'https://www.epicswap.io/',
-    currency: 'CAKE-BNB LP',
-    currencyAddress: '0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6',
+    currency: 'epic-BNB',
+    currencyAddress: '0xc2264d80abd5faa985d81c9c4e19a8d46d948b96',
     tokenDecimals: 18,
     releaseBlockNumber: 4086064,
   },
 ]
-
+// 100000000000000 
+// 149199999999999995805696
 export default ifos

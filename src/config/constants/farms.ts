@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'EPIC-BNB LP',
     lpAddresses: {
-      97: '',
+      97: '0xc2264d80abd5faa985d81c9c4e19a8d46d948b96',
       56: '0xbe8dc0dae6036935bd8f605e936320e492036758',
     },
     tokenSymbol: 'EPIC',
     tokenAddresses: {
-      97: '',
+      97: '0x546f0AB1b5Ac3b32fcaA0cE435F9FABcEfd2c83a',
       56: '0xbA01b008d1530baB2b0DFeFd7a883028EA21d14E',
     },
     quoteTokenSymbol: QuoteToken.BNB,
