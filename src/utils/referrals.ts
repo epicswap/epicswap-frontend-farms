@@ -23,7 +23,7 @@ export const generateReferralLink = (account) => {
     .replace('==', '')
   const BASE_URL =
   process.env.NODE_ENV === "production"
-    ? process.env.API_URL
+    ? "https://www.epicswap.io"
     : "http://localhost:3000";
   return `${BASE_URL}?ref=${code}`
 }
