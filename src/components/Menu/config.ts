@@ -36,22 +36,28 @@ const config: MenuEntry[] = [
   //   href: '/pools',
   // },
   {
-    label: 'Lottery (Coming Soon)',
+    label: 'Lottery',
     icon: 'TicketIcon',
     href: '/lottery',
     // href: '',
   },
   {
-    label: 'IFO (Coming Soon)',
+    label: 'IFO',
     icon: 'IfoIcon',
     href: '/ifo',
     // href: '',
   },
   {
-    label: 'Referrals (Coming Soon)',
+    label: 'Referrals',
     // icon: 'ReferralsIcon',
-    icon: 'HandshakeIcon',
-    href: '',
+    icon: 'GroupsIcon',
+    href: '/referrals',
+  },
+  {
+    label: 'Infos',
+    // icon: 'ReferralsIcon',
+    icon: 'InfoIcon',
+    href: '/info',
   },
   // {
   //   label: 'NFT',
@@ -59,12 +65,12 @@ const config: MenuEntry[] = [
   //   href: '/nft',
   // },
   {
-    label: 'Info',
-    icon: 'InfoIcon',
+    label: 'Listings',
+    icon: 'HandshakeIcon',
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xbA01b008d1530baB2b0DFeFd7a883028EA21d14E',
+        href: 'https://pancakeswap.info/token/0x182Db9378Eb8FB4Eee006074bF4377c3D932620e',
       },
       {
         label: 'CoinGecko',
@@ -76,7 +82,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0xbA01b008d1530baB2b0DFeFd7a883028EA21d14E',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x182Db9378Eb8FB4Eee006074bF4377c3D932620e',
       },
     ],
   },
@@ -93,7 +99,7 @@ const config: MenuEntry[] = [
         href: 'https://epicswap.gitbook.io/epicswap/',
       },
       {
-        label: 'Blog',
+        label: 'Medium',
         href: 'https://epicswap.medium.com/',
       },
     ],
@@ -101,17 +107,17 @@ const config: MenuEntry[] = [
   {
     label: 'Partnerships/IFO',
     icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+    href: '',
   },
   {
     label: 'Audit by Hacken',
     icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+    href: '',
   },
   {
     label: 'Audit by CertiK',
     icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
+    href: '',
   },
 ]
 
