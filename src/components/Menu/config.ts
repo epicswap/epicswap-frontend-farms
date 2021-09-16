@@ -54,10 +54,10 @@ const config: MenuEntry[] = [
     href: '/referrals',
   },
   {
-    label: 'Infos',
+    label: 'Info (Coming Soon)',
     // icon: 'ReferralsIcon',
     icon: 'InfoIcon',
-    href: '/info',
+    href: '',
   },
   // {
   //   label: 'NFT',
