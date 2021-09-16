@@ -133,7 +133,7 @@ const fetchFarms = async () => {
       }
     }),
   )
-  console.log('끝', data)
+  console.log('lp', data)
   return data
 }
 
