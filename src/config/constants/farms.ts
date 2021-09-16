@@ -63,7 +63,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'EPIC',
     tokenAddresses: {
       97: '',
-      56: '0xbA01b008d1530baB2b0DFeFd7a883028EA21d14E',
+      56: '0x182Db9378Eb8FB4Eee006074bF4377c3D932620e',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
