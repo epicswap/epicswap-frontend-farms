@@ -23,7 +23,7 @@ export type DataResponse = {
 const getLotteryRoundData = async (lotteryNumber: number): Promise<DataResponse> => {
   try {
     const response = await fetch(
-      `https://epicswap-info-api.vercel.app/api/singleLottery?lotteryNumber=${lotteryNumber}`,
+      `https://swap-info-api-prroh89vl-brad-eplicions.vercel.app/api/singleLottery?lotteryNumber=${lotteryNumber}`,
     )
     const data = await response.json()
 
