@@ -3,12 +3,13 @@ import { AbiItem } from 'web3-utils'
 import referralABI from 'config/abi/referral.json'
 import { getReferralAddress } from 'utils/addressHelpers'
 import { getWeb3 } from 'utils/web3'
+import CryptoJS from 'crypto-js'
 
-const CryptoJS = require('crypto-js')
 
+// const CryptoJS = require('crypto-js')
 const web3 = getWeb3()
 const referralContract = new web3.eth.Contract(referralABI as unknown as AbiItem, getReferralAddress())
-const secretKey = CryptoJS.enc.Utf8.parse(process.env.REACT_APP_SECRET_KEY)
+const secretKey = "epicswap"
 const hexPrefix = '0x'
 const zeroAddress = `${hexPrefix}0000000000000000000000000000000000000000`
 const epicRefCodeCookieKey = 'referral_code'
@@ -29,8 +30,7 @@ export const generateReferralLink = (account) => {
 }
 
 export function getReferralCookie() {
-  const epicCookie = document.cookie.split('; ').find((row) => row.startsWith(`{epicRefCodeCookieKey}=`))
-
+  const epicCookie = document.cookie.split('; ').find((row) => row.startsWith(`${epicRefCodeCookieKey}=`))
   if (typeof epicCookie === 'undefined') {
     return ''
   }
@@ -48,6 +48,7 @@ export async function setReferralCode(referralCode, account) {
 
   const hasExistingCookie = getReferralCookie()
   const referrerAddress = await referralContract.methods.getReferrer(account).call()
+
   const hasExistingReferrer = referrerAddress !== zeroAddress
   if (hasExistingCookie || hasExistingReferrer) {
     return false
@@ -77,6 +78,8 @@ export function getReferralCode() {
   if (!cookieValue) {
     return zeroAddress
   }
+  console.log("아실발.",cookieValue)
+  console.log("아실발.",secretKey)
 
   const decryptedReferrereAddress = CryptoJS.Rabbit.decrypt(cookieValue, secretKey, {
     mode: CryptoJS.mode.ECB,
@@ -84,7 +87,7 @@ export function getReferralCode() {
   }).toString(CryptoJS.enc.Utf8)
 
   const referrereAddress = `${hexPrefix}${decryptedReferrereAddress}`
-
+  console.log("아실발.",referrereAddress)
   document.cookie = `${epicRefCodeCookieKey}=; expires=Thu, 01 Jan 1970 00:00:00 UTC;`
 
   return referrereAddress

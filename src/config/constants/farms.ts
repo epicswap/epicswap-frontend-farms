@@ -9,12 +9,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'EPIC-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x0b6df71368ee1a7bb1ee067024c8e49d53f7aaa3',
+      56: '0x3bf79bf0c50db9adbbe8a0f6f3a198288174fc76',
     },
     tokenSymbol: 'EPIC',
     tokenAddresses: {
       97: '',
-      56: '0x182Db9378Eb8FB4Eee006074bF4377c3D932620e',
+      56: '0xCe6124Cdd53E2DD85f91EFb33cA476158Fa45978',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -25,12 +25,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'EPIC-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xac08b272c924fa4d65e7455831404474d432207c',
+      56: '0x75119d2c0c6f4b0f3769f3d9d9164d51cd2ed02c',
     },
     tokenSymbol: 'EPIC',
     tokenAddresses: {
       97: '',
-      56: '0x182Db9378Eb8FB4Eee006074bF4377c3D932620e',
+      56: '0xCe6124Cdd53E2DD85f91EFb33cA476158Fa45978',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -58,12 +58,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'EPIC',
     lpAddresses: {
       97: '',
-      56: '0x4ac44c09c61c2e61470a84eb5cf169d5c8b15521',
+      56: '0x3bf79bf0c50db9adbbe8a0f6f3a198288174fc76',
     },
     tokenSymbol: 'EPIC',
     tokenAddresses: {
       97: '',
-      56: '0x182Db9378Eb8FB4Eee006074bF4377c3D932620e',
+      56: '0xCe6124Cdd53E2DD85f91EFb33cA476158Fa45978',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
