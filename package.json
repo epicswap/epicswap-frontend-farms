@@ -33,6 +33,7 @@
   "dependencies": {
     "@binance-chain/bsc-use-wallet": "^0.8.1",
     "@crowdin/crowdin-api-client": "^1.10.1",
+    "@pancakeswap-libs/eslint-config-pancake": "1.0.0",
     "@epicswap/uikit": "^0.10.10",
     "@ethersproject/abi": "^5.4.0",
     "@reduxjs/toolkit": "^1.5.0",
@@ -63,6 +64,7 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@pancakeswap-libs/eslint-config-pancake": "1.0.0",
+    "@types/crypto-js": "4.0.2",
     "@types/jest": "^26.0.19",
     "eslint": "^7.16.0",
     "prettier": "^2.1.2",
