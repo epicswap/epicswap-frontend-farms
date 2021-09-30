@@ -52,11 +52,13 @@ export async function setReferralCode(referralCode, account) {
 
   // using searchParams.get('ref') functions removes some characters from the url
   const cleanRefferalCode = `${referralCode.replace('?ref=', '')}==`
-  const decryptedReferrereAddress = CryptoJS.Rabbit.decrypt(cleanRefferalCode, secretKey, {
+  const decryptedReferreAddress = CryptoJS.Rabbit.decrypt(cleanRefferalCode, secretKey, {
     mode: CryptoJS.mode.ECB,
     padding: CryptoJS.pad.NoPadding,
-  }).toString(CryptoJS.enc.Utf8)
-  const referrereAddress = `${hexPrefix}${decryptedReferrereAddress}`
+  })
+
+  const newReferralAddress = decryptedReferreAddress.toString(CryptoJS.enc.Utf8);
+  const referrereAddress = `${hexPrefix}${newReferralAddress}`
 
   if (account === referrereAddress) {
     return false
