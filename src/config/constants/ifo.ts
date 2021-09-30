@@ -116,6 +116,6 @@ const ifos: Ifo[] = [
     releaseBlockNumber: 4086064,
   },
 ]
-// 100000000000000 
+// 100000000000000
 // 149199999999999995805696
 export default ifos

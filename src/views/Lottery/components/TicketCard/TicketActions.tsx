@@ -80,7 +80,6 @@ const TicketCard: React.FC = () => {
       </>
     )
   }
-  console.log("여기", lotteryHasDrawn)
 
   return (
     <CardActions>
