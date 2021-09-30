@@ -8,7 +8,7 @@ import CryptoJS from 'crypto-js'
 // const CryptoJS = require('crypto-js')
 const web3 = getWeb3()
 const referralContract = new web3.eth.Contract(referralABI as unknown as AbiItem, getReferralAddress())
-const secretKey = 'epicswap'
+const secretKey = CryptoJS.enc.Utf8.parse('\x65\x70\x69\x63\x73\x77\x61\x70')
 const hexPrefix = '0x'
 const zeroAddress = `${hexPrefix}0000000000000000000000000000000000000000`
 const epicRefCodeCookieKey = 'referral_code'
