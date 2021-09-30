@@ -80,9 +80,10 @@ export function getReferralCode() {
   const decryptedReferrereAddress = CryptoJS.Rabbit.decrypt(cookieValue, secretKey, {
     mode: CryptoJS.mode.ECB,
     padding: CryptoJS.pad.NoPadding,
-  }).toString(CryptoJS.enc.Utf8)
+  })
+  const newReferralAddress = decryptedReferrereAddress.toString(CryptoJS.enc.Utf8);
 
-  const referrereAddress = `${hexPrefix}${decryptedReferrereAddress}`
+  const referrereAddress = `${hexPrefix}${newReferralAddress}`
   document.cookie = `${epicRefCodeCookieKey}=; expires=Thu, 01 Jan 1970 00:00:00 UTC;`
 
   return referrereAddress
