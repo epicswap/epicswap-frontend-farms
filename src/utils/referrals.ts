@@ -4,6 +4,7 @@ import referralABI from 'config/abi/referral.json'
 import { getReferralAddress } from 'utils/addressHelpers'
 import { getWeb3 } from 'utils/web3'
 import CryptoJS from 'crypto-js'
+import ENC from 'crypto-js/enc-utf8'
 
 // const CryptoJS = require('crypto-js')
 const web3 = getWeb3()
@@ -57,7 +58,7 @@ export async function setReferralCode(referralCode, account) {
     padding: CryptoJS.pad.NoPadding,
   })
 
-  const newReferralAddress = decryptedReferreAddress.toString(CryptoJS.enc.Utf8);
+  const newReferralAddress = decryptedReferreAddress.toString(ENC);
   const referrereAddress = `${hexPrefix}${newReferralAddress}`
 
   if (account === referrereAddress) {
@@ -81,7 +82,8 @@ export function getReferralCode() {
     mode: CryptoJS.mode.ECB,
     padding: CryptoJS.pad.NoPadding,
   })
-  const newReferralAddress = decryptedReferrereAddress.toString(CryptoJS.enc.Utf8);
+  console.log("ENC",decryptedReferrereAddress)
+  const newReferralAddress = decryptedReferrereAddress.toString(ENC);
 
   const referrereAddress = `${hexPrefix}${newReferralAddress}`
   document.cookie = `${epicRefCodeCookieKey}=; expires=Thu, 01 Jan 1970 00:00:00 UTC;`
