@@ -49,14 +49,14 @@ const LotteryProgress = () => {
           {lotteryHasDrawn ? timeUntilTicketSale : timeUntilLotteryDraw}
         </StyledPrimaryText> */}
         <Text fontSize="40px" bold color="invertedContrast">
-          {lotteryHasDrawn ? TranslateString(0, 'Ticket sales time') : TranslateString(0, 'Drawing lots')}
+          {lotteryHasDrawn ? TranslateString(0, 'Buy Tickets') : TranslateString(0, 'Lottery Draw!')}
         </Text>
       </TopTextWrapper>
-      {lotteryHasDrawn && (
+      { (
         <BottomTextWrapper>
-          <Text color="invertedContrast">
+          <Text color="contrast">
             {/* {timeUntilLotteryDraw} */}
-             {TranslateString(0, 'Current status')}
+             {TranslateString(0, 'Lottery Phase ↑')}
           </Text>
         </BottomTextWrapper>
       )}
