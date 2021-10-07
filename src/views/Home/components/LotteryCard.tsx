@@ -72,7 +72,7 @@ const FarmedStakingCard = () => {
         <CardImage src="/images/epic/1.png" alt="EPIC logo" width={64} height={64} />
         <Block>
           <CakeWinnings />
-          <Label>{TranslateString(552, 'CAKE to Collect')}</Label>
+          <Label>{TranslateString(552, 'EPIC to Collect')}</Label>
         </Block>
         <Block>
           <LotteryJackpot />
