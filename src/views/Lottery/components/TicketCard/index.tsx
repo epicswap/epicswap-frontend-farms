@@ -69,7 +69,8 @@ const TicketCard: React.FC<CardProps> = ({ isSecondCard = false }) => {
               <Text fontSize="14px" color="textSubtle">
                 {TranslateString(999, 'Until ticket sale:')}
               </Text>
-              <Heading size="lg">{timeUntilTicketSale}</Heading>
+              {/* <Heading size="lg">{timeUntilTicketSale}</Heading> */}
+              <Heading size="lg">The next phase 1 h</Heading>
             </TicketCountWrapper>
           ) : (
             <TicketCountWrapper>
