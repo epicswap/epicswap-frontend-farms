@@ -70,7 +70,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x182Db9378Eb8FB4Eee006074bF4377c3D932620e',
+        href: 'https://pancakeswap.info/token/',
       },
       {
         label: 'CoinGecko',
@@ -81,8 +81,8 @@ const config: MenuEntry[] = [
         href: 'https://coinmarketcap.com/currencies/goose-finance/',
       },
       {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x182Db9378Eb8FB4Eee006074bF4377c3D932620e',
+        label: 'Dextools',
+        href: 'https://www.dextools.io/app/bsc/pair-explorer/',
       },
     ],
   },
