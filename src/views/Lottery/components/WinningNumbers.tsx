@@ -100,12 +100,12 @@ const WinningNumbers: React.FC = () => {
                 </CenteredTextWithPadding>
               </RowNoPadding>
             </Column>
-            <Link
+            {/* <Link
               href="https://swap-info-api-prroh89vl-brad-eplicions.vercel.app/api/lottery?page=0&pageSize=25"
               target="_blank"
             >
               {TranslateString(448, 'Export recent winning numbers')}
-            </Link>
+            </Link> */}
           </StyledCardContentInner>
         </CardBody>
       </Card>

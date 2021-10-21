@@ -1,20 +1,25 @@
-export type DataResponse = {
-  lotteryNumber: number
-  lotteryDate: string
-  lotteryNumbers: number[]
-  poolSize: number
-  burned: number
-  contractLink: string
-  jackpotTicket: number
-  match2Ticket: number
-  match3Ticket: number
-  match4Ticket: number
-  poolJackpot: number
-  poolMatch3: number
-  poolMatch2: number
+import {lottery} from './singleLottery'
 
-  // TODO: Fill in the error type
-  error: any
+
+export type DataResponse = {
+  lotteryNumber?: number
+  lotteryDate?: Date
+  lotteryNumbers?: number[]
+  poolSize?: number
+  burned?: number
+  contractLink?: string
+  jackpotTicket?: number
+  match1Ticket?: number
+  match2Ticket?: number
+  match3Ticket?: number
+  poolJackpot?: number
+  poolMatch3?: number
+  poolMatch2?: number
+
+  // // TODO: Fill in the error type
+  error?: any
+  errorMessage?: string;
+  maxLotteryNumber?: number;
 }
 
 /**
@@ -22,13 +27,16 @@ export type DataResponse = {
  */
 const getLotteryRoundData = async (lotteryNumber: number): Promise<DataResponse> => {
   try {
-    const response = await fetch(
-      `https://swap-info-api-prroh89vl-brad-eplicions.vercel.app/api/singleLottery?lotteryNumber=${lotteryNumber}`,
-    )
-    const data = await response.json()
 
+    // const response = await fetch(
+    //   `https://epicswap-info-api.vercel.app/api/singleLottery?lotteryNumber=${lotteryNumber}`,
+    // )
+    
+    // const data = await response.json()
+
+    const data = await lottery(lotteryNumber)
     return data
-  } catch (error) {
+  } catch (error:any) {
     throw new Error(error)
   }
 }
