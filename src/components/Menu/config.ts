@@ -109,16 +109,16 @@ const config: MenuEntry[] = [
     icon: 'GooseIcon',
     href: '',
   },
-  {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: '',
-  },
-  {
-    label: 'Audit by CertiK',
-    icon: 'AuditIcon',
-    href: '',
-  },
+  // {
+  //   label: 'Audit by Hacken',
+  //   icon: 'AuditIcon',
+  //   href: '',
+  // },
+  // {
+  //   label: 'Audit by CertiK',
+  //   icon: 'AuditIcon',
+  //   href: '',
+  // },
 ]
 
 export default config
