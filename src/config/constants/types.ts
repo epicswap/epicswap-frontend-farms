@@ -28,6 +28,10 @@ export enum QuoteToken {
   'EBC' = 'EBC',
   'TWT' = 'TWT',
   'UST' = 'UST',
+  'BSCUSD' = 'BSCUSD',
+  'DOT' = 'DOT',
+
+
 }
 
 export enum PoolCategory {
