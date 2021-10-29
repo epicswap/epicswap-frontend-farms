@@ -171,18 +171,18 @@ const farms: FarmConfig[] = [
   {
     pid: 10,
     risk: 5,
-    lpSymbol: 'BSCUSD-USD LP',
+    lpSymbol: 'USDT-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0xc15fa3e22c912a276550f3e5fe3b0deb87b55acd',
     },
-    tokenSymbol: 'EPIC',
+    tokenSymbol: 'BSCUSD',
     tokenAddresses: {
       97: '',
       56: '0xCe6124Cdd53E2DD85f91EFb33cA476158Fa45978',
     },
-    quoteTokenSymbol: QuoteToken.BSCUSD,
-    quoteTokenAdresses: contracts.bscusd,
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
   },
   {
     pid: 11,
@@ -192,13 +192,13 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0xbcd62661a6b1ded703585d3af7d7649ef4dcdb5c',
     },
-    tokenSymbol: 'EPIC',
+    tokenSymbol: 'DOT',
     tokenAddresses: {
       97: '',
       56: '0xCe6124Cdd53E2DD85f91EFb33cA476158Fa45978',
     },
-    quoteTokenSymbol: QuoteToken.DOT,
-    quoteTokenAdresses: contracts.dot,
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
   },
   // {
   //   pid: 3,
