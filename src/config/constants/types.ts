@@ -1,5 +1,4 @@
 export type IfoStatus = 'coming_soon' | 'live' | 'finished'
-
 export interface Ifo {
   id: string
   isActive: boolean
@@ -18,7 +17,6 @@ export interface Ifo {
   tokenDecimals: number
   releaseBlockNumber: number
 }
-
 export enum QuoteToken {
   'BNB' = 'BNB',
   'CAKE' = 'CAKE',
@@ -28,19 +26,18 @@ export enum QuoteToken {
   'EBC' = 'EBC',
   'TWT' = 'TWT',
   'UST' = 'UST',
+  'BSCUSD' = 'BSCUSD',
+  'DOT' = 'DOT',
 }
-
 export enum PoolCategory {
   'COMMUNITY' = 'Community',
   'CORE' = 'Core',
   'BINANCE' = 'Binance', // Pools using native BNB behave differently than pools using a token
 }
-
 export interface Address {
   97?: string
   56: string
 }
-
 export interface FarmConfig {
   pid: number
   lpSymbol: string
@@ -59,7 +56,6 @@ export interface FarmConfig {
     endBlock: number
   }
 }
-
 export interface PoolConfig {
   sousId: number
   image?: string
@@ -76,7 +72,6 @@ export interface PoolConfig {
   isFinished?: boolean
   tokenDecimals: number
 }
-
 export type Nft = {
   name: string
   description: string
@@ -86,7 +81,6 @@ export type Nft = {
   sortOrder: number
   bunnyId: number
 }
-
 export interface ReferralConfig {
   totalReferrals: number
   totalReferralCommissions: number
