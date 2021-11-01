@@ -108,6 +108,14 @@ const fetchFarms = async () => {
             ])
           : [null, null]
 
+      /**
+      * Get farm APR value in %
+      * @param poolWeight allocationPoint / totalAllocationPoint
+      * @param cakePriceUsd epic price in USD
+      * @param poolLiquidityUsd Total pool liquidity in USD
+      * @param farmAddress Farm Address
+      * @returns Farm Apr
+      */
       const allocPoint = info ? new BigNumber(info.allocPoint?._hex) : ZERO
       const poolWeight = totalAllocPoint ? allocPoint.div(new BigNumber(totalAllocPoint)) : ZERO
 

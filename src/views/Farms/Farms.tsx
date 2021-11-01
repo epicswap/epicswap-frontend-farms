@@ -63,17 +63,10 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
     (farmsToDisplay, removed: boolean) => {
       // const cakePriceVsBNB = new BigNumber(farmsLP.find((farm) => farm.pid === CAKE_POOL_PID)?.tokenPriceVsQuote || 0)
       const farmsToDisplayWithAPY: FarmWithStakedValue[] = farmsToDisplay.map((farm) => {
-        // if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
-        // return farm
-        // }
-
-        // const cakeRewardPerBlock = new BigNumber(1)
-        //   .times(new BigNumber(farm.poolWeight))
-        //   .div(new BigNumber(10).pow(18))
-        const cakeRewardPerBlock = new BigNumber(farm.epicPerBlock || 1)
-          .times(new BigNumber(farm.poolWeight))
-          .div(new BigNumber(10).pow(18))
-
+        if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
+          return farm
+        }
+        const cakeRewardPerBlock = CAKE_PER_BLOCK.times(farm.poolWeight)
         const cakeRewardPerYear = cakeRewardPerBlock.times(BLOCKS_PER_YEAR)
 
         let apy = cakePrice.times(cakeRewardPerYear)
