@@ -28,6 +28,8 @@ export enum QuoteToken {
   'UST' = 'UST',
   'BSCUSD' = 'BSCUSD',
   'DOT' = 'DOT',
+  'ETH' = 'ETH',
+
 }
 export enum PoolCategory {
   'COMMUNITY' = 'Community',

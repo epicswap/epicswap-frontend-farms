@@ -62,6 +62,7 @@ const fetchFarms = async () => {
         if (farmConfig.tokenSymbol === QuoteToken.BUSD && farmConfig.quoteTokenSymbol === QuoteToken.BUSD) {
           tokenPriceVsQuote = new BigNumber(1)
         } else {
+          console.log(tokenBalanceLP, quoteTokenBlanceLP)
           tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP))
         }
         lpTotalInQuoteToken = tokenAmount.times(tokenPriceVsQuote)

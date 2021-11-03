@@ -74,7 +74,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ETH',
     lpAddresses: {
       97: '',
-      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+      56: '0xd9a0d1f5e02de2403f68bb71a15f8847a854b494',
     },
     tokenSymbol: 'ETH',
     tokenAddresses: {
@@ -91,7 +91,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DOT',
     lpAddresses: {
       97: '',
-      56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
+      56: '0x54c1ec2f543966953f2f7564692606ea7d5a184e',
     },
     tokenSymbol: 'DOT',
     tokenAddresses: {
@@ -108,7 +108,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CAKE',
     lpAddresses: {
       97: '',
-      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+      56: '0x0ed8e0a2d99643e1e65cca22ed4424090b8b7458',
     },
     tokenSymbol: 'CAKE',
     tokenAddresses: {
@@ -125,7 +125,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'WBNB',
     lpAddresses: {
       97: '',
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
     },
     tokenSymbol: 'BNB',
     tokenAddresses: {
@@ -142,7 +142,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
