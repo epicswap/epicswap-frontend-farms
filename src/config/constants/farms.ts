@@ -21,7 +21,7 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'EPIC-WBNB LP',
+    lpSymbol: 'EPIC-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x75119d2c0c6f4b0f3769f3d9d9164d51cd2ed02c',
@@ -37,7 +37,7 @@ const farms: FarmConfig[] = [
   {
     pid: 2,
     risk: 3,
-    lpSymbol: 'WBNB-BUSD LP',
+    lpSymbol: 'BNB-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
@@ -187,7 +187,7 @@ const farms: FarmConfig[] = [
   {
     pid: 11,
     risk: 5,
-    lpSymbol: 'DOT-WBNB LP',
+    lpSymbol: 'DOT-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xbcd62661a6b1ded703585d3af7d7649ef4dcdb5c',
