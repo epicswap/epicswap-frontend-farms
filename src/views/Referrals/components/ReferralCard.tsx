@@ -12,7 +12,7 @@ const ReferralCard: React.FC = () => {
   const { account } = useWallet()
   const referrals = useReferrals(account)
   const [totalReferrals, setTotalReferrals] = useState<number>(0)
-  const [totalReferralCommisions, setTotalReferralCommisions] = useState<number>(Number(0))
+  const [totalReferralCommissions, setTotalReferralCommissions] = useState<number>(Number(0))
   const [referralLink, setReferralLink] = useState<string>('')
   const [copyTxt, setCopyTxt] = useState('Copy')
 
@@ -25,8 +25,8 @@ const ReferralCard: React.FC = () => {
   }
 
   useEffect(() => {
-    setTotalReferrals(referrals?.totalReferrals ? referrals?.totalReferrals : 0)
-    setTotalReferralCommisions(referrals?.totalReferralCommissions ? referrals?.totalReferralCommissions : 0)
+    setTotalReferrals(referrals.totalReferrals)
+    setTotalReferralCommissions(referrals.totalReferralCommissions/10**18)
   }, [referrals])
 
   useEffect(() => {
@@ -43,7 +43,7 @@ const ReferralCard: React.FC = () => {
 
         <Card className={styles.card}>
           <CardBody>{TranslateString(10009, 'Total Referral Commissions')}</CardBody>
-          <CardFooter>{totalReferralCommisions} EPIC</CardFooter>
+          <CardFooter>{totalReferralCommissions} EPIC</CardFooter>
         </Card>
       </Flex>
 
