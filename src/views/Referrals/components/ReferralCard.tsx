@@ -26,7 +26,7 @@ const ReferralCard: React.FC = () => {
 
   useEffect(() => {
     setTotalReferrals(referrals.totalReferrals)
-    setTotalReferralCommissions(referrals.totalReferralCommissions/10**18)
+    setTotalReferralCommissions(referrals.totalReferralCommissions / 10 ** 18)
   }, [referrals])
 
   useEffect(() => {
@@ -60,7 +60,7 @@ const ReferralCard: React.FC = () => {
           </Flex>
         </CardBody>
         <CardFooter style={{ textAlign: 'center' }}>
-          <a href={referralLink} target="_blank" rel="noreferrer">
+          <a href={referralLink} target="_blank" rel="noreferrer" style={{ wordBreak: 'break-all' }}>
             {referralLink}
           </a>
         </CardFooter>
